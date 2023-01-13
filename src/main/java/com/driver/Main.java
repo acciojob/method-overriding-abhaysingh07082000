@@ -5,11 +5,12 @@ package com.driver;
  {
   public static void main(String[] args) {
 
+     A a=new B();
+     a.meth();
 
 
-    B c=new B();
-    c.meth();
-
+     B b=new B();
+     b.meth();
   }
 
 
