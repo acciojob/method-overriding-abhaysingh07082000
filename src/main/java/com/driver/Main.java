@@ -12,6 +12,7 @@ class A {
     @Override
     public String meth()
     {
+
         return "Method is overridden in Extendend class B";
     }
 }
@@ -20,12 +21,11 @@ class A {
  {
   public static void main(String[] args) {
 
-     A a=new B();
-      System.out.println( a.meth());
+      B b=new B();
+      b.meth();
 
-
-     B b=new B();
-      System.out.println();
+      B a=new B();
+      b.meth();
   }
 
 
